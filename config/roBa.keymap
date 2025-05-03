@@ -78,13 +78,13 @@
 
         marks {
             bindings = <
-&kp CARET       &kp TILDE    &kp PIPE         &kp LPAR  &kp RPAR                                         &kp INT_YEN       &none              &kp MINUS      &kp PLUS       &kp DOLLAR
+&kp CARET       &kp TILDE    &kp PIPE         &kp LPAR  &kp RPAR                                         &kp LA(Y)         &none              &kp MINUS      &kp PLUS       &kp DOLLAR
 &kp AT          &kp PERCENT  &kp EXCLAMATION  &kp LBKT  &kp RBKT  &kp LC(LS(SPACE))      &kp UNDERSCORE  &kp HASH          &kp ASTERISK       &kp UNDER      &kp EQUAL      &kp SEMICOLON
 &kp LEFT_SHIFT  &kp GRAVE    &kp AMPS         &kp LBRC  &kp RBRC  &kp LA(LC(SPACE))      &trans          &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp BACKSLASH  &kp BACKSLASH  &trans
 &trans          &trans       &trans           &trans    &trans    &trans                 &kp BACKSPACE   &mo 3                                                              &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp RIGHT LEFT_ARROW>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT_ARROW>;
         };
 
         nums {
@@ -110,7 +110,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &none     &none     &none     &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
